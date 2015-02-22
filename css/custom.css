@@ -1,5 +1,5 @@
-.intro{
-
+body {
+    background-color: #0072b5;
 }
 
 .bg {
@@ -53,4 +53,16 @@
     background-color: #ff2255;
     padding: 15px 0px;
     font-weight: bold;
+}
+
+.navbar-logo{
+    background-image: url("../img/asset/Logo.png");
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    background-size: cover;
+    height: 90px;
+    width: 90px;
+    margin-top: -8px;
+    box-shadow: 10px 5px 10px;
 }
