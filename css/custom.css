@@ -1,5 +1,5 @@
 body {
-    background-color: #0072b5;
+
 }
 
 .bg {
@@ -65,4 +65,14 @@ body {
     width: 90px;
     margin-top: -8px;
     box-shadow: 10px 5px 10px;
+}
+
+.level-logo {
+    margin: 0 auto;
+    height: 120px;
+    width: 120px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-size: cover;
 }
