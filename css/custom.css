@@ -76,3 +76,7 @@ body {
     border-radius: 50%;
     background-size: cover;
 }
+
+.hidden-col-level {
+    visibility: hidden;
+}
