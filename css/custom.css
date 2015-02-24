@@ -80,3 +80,22 @@ body {
 .hidden-col-level {
     visibility: hidden;
 }
+#bg-testimonial {
+    background-image: url("../img/asset/bg_comment.jpg");
+    display: inline-block;
+    padding: 20px 0px;
+    background-size: cover;
+    height: 300px;
+}
+
+#testimonial {
+    color: #ffffff;
+    font-size: 1.1em;
+    font-weight: 200;
+
+}
+
+#testimonial span {
+    display: block;
+    font-style: italic;
+}
