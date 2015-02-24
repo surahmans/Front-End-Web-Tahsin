@@ -108,3 +108,20 @@ body {
     z-index: 0;
     background-color: rgba(0,0,0,0.5); /*dim the background*/
 }
+
+.photo {
+    background-size: cover;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: solid 2px #FFF;
+}
+
+.active-photo {
+    width: 150px;
+    height: 150px;
+    border: solid thick #FFF;
+}
+
