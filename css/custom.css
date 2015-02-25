@@ -131,3 +131,37 @@ body {
     border: solid thick #FFF;
 }
 
+.article-title {
+    font-size: medium;
+    font-weight: 400;
+    text-transform: capitalize;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: -15px;
+    width: 100%;
+    z-index: 1;
+}
+
+.article-intro {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 0 5px;
+    color: #FFF;
+    font-size: 0.82em;
+    font-weight: lighter;
+    z-index: 1;
+}
+
+.article-image {
+    position: relative;
+}
+
+.overlay{
+    top: 0;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    border-radius: 6px;
+    visibility: hidden;
+}

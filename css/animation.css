@@ -96,19 +96,16 @@ slideUp
 
 @keyframes slideUp {
     0% {
-        transform: translateY(100%);
+        transform: translateY(-7%);
     }
     50%{
-        transform: translateY(-8%);
+        transform: translateY(0%);
     }
-    65%{
-        transform: translateY(4%);
+    75%{
+        transform: translateY(-5%);
     }
-    80%{
-        transform: translateY(-4%);
-    }
-    95%{
-        transform: translateY(2%);
+    90%{
+        transform: translateY(-2%);
     }
     100% {
         transform: translateY(0%);
