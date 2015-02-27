@@ -85,8 +85,8 @@ slideUp
     animation-name: slideUp;
     -webkit-animation-name: slideUp;
 
-    animation-duration: 1s;
-    -webkit-animation-duration: 1s;
+    animation-duration: 0.3s;
+    -webkit-animation-duration: 0.3s;
 
     animation-timing-function: ease;
     -webkit-animation-timing-function: ease;
@@ -96,37 +96,40 @@ slideUp
 
 @keyframes slideUp {
     0% {
-        transform: translateY(-7%);
+        -webkit-transform: translateY(5%);
     }
     50%{
-        transform: translateY(0%);
+        -webkit-transform: translateY(4%);
     }
-    75%{
-        transform: translateY(-5%);
+    65%{
+        -webkit-transform: translateY(3%);
     }
-    90%{
-        transform: translateY(-2%);
+    80%{
+        -webkit-transform: translateY(2%);
+    }
+    95%{
+        -webkit-transform: translateY(1%);
     }
     100% {
-        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
     }
 }
 
 @-webkit-keyframes slideUp {
     0% {
-        -webkit-transform: translateY(100%);
+        -webkit-transform: translateY(5%);
     }
     50%{
-        -webkit-transform: translateY(-8%);
-    }
-    65%{
         -webkit-transform: translateY(4%);
     }
+    65%{
+        -webkit-transform: translateY(3%);
+    }
     80%{
-        -webkit-transform: translateY(-4%);
+        -webkit-transform: translateY(2%);
     }
     95%{
-        -webkit-transform: translateY(2%);
+        -webkit-transform: translateY(1%);
     }
     100% {
         -webkit-transform: translateY(0%);
