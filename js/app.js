@@ -5,12 +5,19 @@ $(document).ready(function () {
     $('header').css("height", $(window).height());
     photo();
     article();
+    form();
 });
 $(window).scroll(function () {
     if ($(window).scrollTop() > $('body').height() / 4) {
         $('.hidden-col-level').addClass('fadeIn');
     }
 });
+
+function form() {
+    $('input').css('width', $('form').width() / 2.5);
+    $('textarea').css('width', $('input').width() * 2 + 60);
+    $('button').css('right', ($('form').width() - $('textarea').width()) / 2);
+};
 
 function photo() {
     $('.photo').click(function () {

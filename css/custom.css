@@ -168,3 +168,56 @@ body {
     border-radius: 6px;
     visibility: hidden;
 }
+
+.contact {
+    position: relative;
+    background-image: url('../img/asset/city.jpg');
+    background-size: cover;
+}
+
+.contact form {
+    border: solid thin #FFF;
+    margin: 2em 0;
+    padding: 4em 0;
+    color: #FFF;
+}
+.contact form input{
+    border: none;
+    border-bottom: solid thin #FFF;
+    background-color: transparent;
+    width: auto;
+    padding: 1em 10px;
+    margin: 0 10px;
+}
+
+.contact form input:focus {
+}
+
+.contact form textarea {
+    border: none;
+    border-bottom: solid thin #FFF;
+    background-color: transparent;
+    width: auto;
+    padding: 1em;
+}
+
+.contact form button {
+    padding: 10px;
+    width: 150px;
+    background-color: transparent;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.contact form button:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+.footer {
+    min-width: 100%;
+    background-color: #425669;
+    padding: auto 0;
+}
