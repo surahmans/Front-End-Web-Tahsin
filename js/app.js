@@ -8,10 +8,16 @@ $(document).ready(function () {
     article();
     form();
 });
-$(window).scroll(function () {
-    if ($(window).scrollTop() > $('body').height() / 4) {
-        $('.hidden-col-level').addClass('fadeIn');
-    }
+
+$(window).scroll(function() {
+
+        var levelPos = $('.container').offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+        if (levelPos < topOfWindow+500) {
+            $('.hidden-col-level').addClass("fadeIn");
+        }
+
 });
 
 function form() {
