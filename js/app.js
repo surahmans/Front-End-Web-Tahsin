@@ -1,5 +1,6 @@
 $(window).resize(function () {
     $('header').css("height", $(window).height());
+    form();
 });
 $(document).ready(function () {
     $('header').css("height", $(window).height());
@@ -15,8 +16,8 @@ $(window).scroll(function () {
 
 function form() {
     $('input').css('width', $('form').width() / 2.5);
-    $('textarea').css('width', $('input').width() * 2 + 60);
-    $('button').css('right', ($('form').width() - $('textarea').width()) / 2);
+    $('textarea').css('width', $('input').width() * 2 + 30);
+    $('button').css('right', ($('form').width() - $('textarea').width()) / 2 + 15);
 };
 
 function photo() {
