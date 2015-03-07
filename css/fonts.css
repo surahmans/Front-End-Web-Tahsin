@@ -1,0 +1,8 @@
+@media all and (max-width: 720px) {
+    .h2-cover {
+        font-size: 2em;
+    }
+    .line-cover {
+        display: none;
+    }
+}
