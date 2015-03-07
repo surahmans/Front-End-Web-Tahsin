@@ -1,11 +1,12 @@
 $(window).resize(function () {
     $('header').css("height", $(window).height());
+    $('.overlay').css('width', $('article').width());
     form();
 });
 $(document).ready(function () {
     $('header').css("height", $(window).height());
+    $('.overlay').css('width', $('article').width());
     photo();
-    article();
     form();
 });
 
@@ -36,15 +37,6 @@ function photo() {
 
         $('.active-testimonial').removeClass('active-testimonial');
         $('.testimonial').parent().children().eq($(this).index() - 3).addClass('active-testimonial');
-    });
-};
-
-function article() {
-    $('article img').mouseenter(function () {
-        $(this).siblings().addClass('slideUp').css('width', $(this).width());
-    });
-    $('.overlay').mouseleave(function() {
-        $(this).removeClass('slideUp');
     });
 };
 
