@@ -23,7 +23,7 @@ $(window).scroll(function() {
 function form() {
     $('input').css('width', $('form').width() / 2.5);
     $('textarea').css('width', $('input').width() * 2 + 30);
-    $('button').css('right', ($('form').width() - $('textarea').width()) / 2 + 15);
+    $('div > div > div > form > button').css('right', ($('form').width() - $('textarea').width()) / 2 + 15);
 };
 
 function photo() {
